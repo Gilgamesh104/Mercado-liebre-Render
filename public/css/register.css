@@ -1,0 +1,48 @@
+@import url(normalize.css);
+.Crear-usuario{
+    background: #ebebeb;
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.Crear-usuario h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.Crear-usuario h2{
+    font-size: 24px;
+    margin-bottom: 20px
+}
+.tipo-perfil{
+    margin-bottom: 10px;
+}
+.check-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.check-box li{
+    
+    margin: auto;
+}
+.controls{
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.pass{
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+    --amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+}
+  img{
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  ul li{
+    list-style-type: none;
+  }
