@@ -33,12 +33,7 @@ main{
     margin-top: 10px;
     display:none;
 }
-/* .camion{
-    width: 100px;
-  height: 100px;
-  background: red;
-  transition: width 2s, height 4s;
-} */
+
 .camion i{
 
     background-color: white;
@@ -51,14 +46,14 @@ main{
     height: 30px;
     border-radius: 50%;
     text-align: center;
-    transition: width 2s, height 2s, transform 2s;
     position: relative;
-    left: 100px;
+    left: 150px;
+    
 }
 
 .camion i:hover{
-    transform: rotate(190deg);
-    
+    transform: rotate(-90deg);
+transition: 2s;
 }
 article{
     margin-bottom: 10px;
@@ -93,7 +88,7 @@ article{
 }
 .navegacion-header {
     display:flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-left: 10px;
     margin-right: 10px;
 }
